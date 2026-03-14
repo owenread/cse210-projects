@@ -45,7 +45,7 @@ public class Journal
             entry._date = parts[0];
             entry._promptText = parts[1];
             entry._entryText = parts[2];
-            entry._EntryMood = int.TryParse(parts[3]);
+            entry._EntryMood = int.Parse(parts[3]);
             //Added for creativity^
             _entries.Add(entry);
         }
