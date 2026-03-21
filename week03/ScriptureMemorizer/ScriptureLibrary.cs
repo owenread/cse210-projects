@@ -1,6 +1,5 @@
 using System;
 
-// ScriptureLibrary.cs
 public class ScriptureLibrary
 {
     private List<Scripture> _scriptures = new List<Scripture>();
@@ -9,7 +8,6 @@ public class ScriptureLibrary
     {
         LoadFromFile(filePath);
     }
-
     private void LoadFromFile(string filePath)
     {
         if (!File.Exists(filePath))
@@ -21,7 +19,6 @@ public class ScriptureLibrary
 
         foreach (var line in File.ReadAllLines(filePath))
         {
-            // Skip blank lines and comments
             if (string.IsNullOrWhiteSpace(line) || line.TrimStart().StartsWith("#"))
                 continue;
 
