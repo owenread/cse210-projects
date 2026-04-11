@@ -1,0 +1,4 @@
+0|0|0
+SimpleGoal|Teach my daughter to highfive|Practice giving her a high five until she does it on her own|100|False
+EternalGoal|Family scripture study|Read scriptures with my wife and daughter|50
+ChecklistGoal|exersize daily|Do 30 min of exercise every day|50|10|1000|0
